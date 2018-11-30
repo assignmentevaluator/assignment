@@ -1,7 +1,9 @@
 git add .
 git commit -m "1"
 git push
-sleep 1
+PID=$!
+wait $PID
 assignmentevaluator
-sleep 1
+PID=$!
+wait $PID
 nnnn4312
